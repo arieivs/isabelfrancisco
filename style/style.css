@@ -1,0 +1,32 @@
+@import url(fonts.css);
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container img {
+    max-height: 500px;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.horizontal-list {
+    padding: 0;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.sub-container {
+    width: 50%;
+}
