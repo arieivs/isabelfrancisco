@@ -10,12 +10,22 @@
     src: url("../fonts/theseasons-reg.otf");
 }
 
+@font-face {
+    font-family: "ArchivePro";
+    src: url("../fonts/ArchivePro-RegularItalic.ttf");
+}
+
+@font-face {
+    font-family: "LTPerfume";
+    src: url("../fonts/LTPerfume.ttf");
+}
+
 body {
     font-family: "Poppins";
 }
 
 h1 {
-    font-family: "TANPearl";
+    font-family: "ArchivePro";
     color: #182E51;
     font-size: 50px;
     text-align: right;
@@ -23,7 +33,7 @@ h1 {
 }
 
 h2 {
-    font-family: "The Seasons";
+    font-family: "ArchivePro";
     color: #182E51;
     font-size: 36px;
     text-align: center;
