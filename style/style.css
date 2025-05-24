@@ -14,6 +14,7 @@ body {
 .container img {
     max-height: 500px;
     max-width: 50%;
+    object-fit: contain;
 }
 
 .navbar {
@@ -41,8 +42,30 @@ body {
     justify-content: center;
 }
 
-.banner {
-    background-image: url("../images/douro.png");
-    background-size: cover;
-    min-height: 500px;
+.gallery img {
+    max-width: 30%;
 }
+
+#luamel {
+    margin-bottom: 50px;
+}
+
+.btn {
+    align-self: center;
+    text-align: center;
+    border: 2px solid #182E51;
+    background-color: #fff;
+    color: #182E51;
+    width: 150px;
+    padding: 0.5em;
+    margin: 30px;
+}
+
+.btn:hover {
+    background-color: #182E51;
+    color: #fff;
+}
+
+footer h2 {
+    text-align: left;
+} 
