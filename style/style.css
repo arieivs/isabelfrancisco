@@ -2,16 +2,47 @@
 
 body {
     margin: 0;
+    background-color: #FFF3E6;
+}
+
+#titulo {
+    background-image: url(../images/fofos.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+
+#luamel {
+    background-color: #FFE5BC;
+}
+
+#informacao {
+    background-color: #FFD99B;
+}
+
+#contactos {
+    background-color: #FFC971;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.wrapper {
+    padding: 50px 0;
 }
 
 .container {
-    max-width: 1000px;
-    margin: 0 auto 100px auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-flex {
     display: flex;
     gap: 50px;
 }
 
-.container img {
+.container-sym img {
     max-height: 500px;
     max-width: 50%;
     object-fit: contain;
@@ -42,30 +73,42 @@ body {
     justify-content: center;
 }
 
-.gallery img {
-    max-width: 30%;
+.sub-container img {
+    max-width: 100%;
 }
 
-#luamel {
-    margin-bottom: 50px;
+.sub-container-left {
+    width: 30%;
+}
+
+.sub-container-asym {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.sub-container-asym img {
+    max-height: 500px;
 }
 
 .btn {
     align-self: center;
     text-align: center;
-    border: 2px solid #182E51;
-    background-color: #fff;
-    color: #182E51;
+    background-color: #FF9505;
+    color: #FFF3E6;
     width: 150px;
     padding: 0.5em;
     margin: 30px;
+    border-radius: 50px;
 }
 
 .btn:hover {
-    background-color: #182E51;
-    color: #fff;
+    background-color: #E2711D;
+    color: #FFF3E6;
 }
 
-footer h2 {
-    text-align: left;
+footer {
+    text-align: center;
+    padding: 50px 0;
 } 

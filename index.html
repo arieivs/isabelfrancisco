@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <div class="container navbar">
+        <div class="container container-flex navbar">
             <img src="images/monograma.png" alt="">
             <ul class="horizontal-list">
                 <li><a href="#dia">Dia</a></li>
@@ -20,56 +20,57 @@
             </ul>
         </div>
     </header>
-    <div class="container">
-        <img src="images/fofos-bcn.jpg" alt="">
-        <div class="sub-container titulo">
+    <div class="wrapper" id="titulo">
+        <div class="container">
             <h1>Isabel e Francisco</h1>
             <p>16 Agosto 2025</p>
         </div>
     </div>
-    <div class="container" id="dia">
-        <div class="sub-container">
-            <h2>O Dia</h2>
-            <p>Missa | 15h30</p>
-            <p>Igreja do <a href="https://mosteirodelandim.com/" target="_blank">Mosteiro de Santa Maria de Landim</a></p>
-            <p>Seguido de cocktail e jantar no Mosteiro</p>
-            <p>Alameda do Mosteiro, 4770-328 Vila Nova de Famalicão, Portugal.</p>
-            <a class="btn" href="https://www.google.com/maps/place/Mosteiro+de+Santa+Maria+de+Landim/@41.3795737,-8.4649919,267m/data=!3m1!1e3!4m6!3m5!1s0xd24f61285cbd035:0xf11ff2ba637bd6f1!8m2!3d41.3792134!4d-8.4636841!16s%2Fg%2F12156rt3?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Como chegar</a>
-        </div>
-        <img src="images/mosteiro.jpg" alt="">
-    </div>
-    <div class="container" id="informacao">
-        <img src="images/mosteiro_inside.jpg" alt="">
-        <div class="sub-container">
-            <h2>Informações Importantes</h2>
-            <p>Para podermos considerar intolerâncias e preferências de comida, pedimos por favor que preencham este pequeno <a href="">formulário</a>, ou que nos contactem diretamente a isabel.francisco.aug.2025@gmail.com ou por telemóvel.</p>
-            <a class="btn" href="" target="_blank">Formulário</a>
-        </div>
-    </div>
-    <div class="container" id="luamel">
-        <div class="sub-container">
-            <h2>Presente</h2>
-            <p>O que mais queremos é poder celebrar convosco este dia tão especial!</p>
-            <p>Como estamos a viver em Bruxelas (temporariamente) e nos espera para o ano uma nova aventura em Madrid, não estamos para já a montar casa.</p>
-            <p>Vamos embarcar numa viagem que ambos sempre quisemos fazer para a nossa lua de mel: ao Japão!</p>
-            <p>Agradecemos qualquer contribuição para a nossa viagem: IBAN</p>
-        </div>
-        <img src="images/montfuji.png" alt="">
-    </div>
-    <div class="container gallery">
-        <img src="images/japao1.jpg" alt="">
-        <img src="images/japao2.jpg" alt="">
-        <img src="images/japao3.jpg" alt="">
-    </div>
-    <footer>
-        <div class="container" id="contactos">
+    <div class="wrapper" id="dia">
+        <div class="container container-flex container-sym">
             <div class="sub-container">
-                <h2>Contactos</h2>
-                <p>isabel.francisco.aug.2025@gmail.com</p>
-                <p>Isabel: +351 913026850</p>
-                <p>Francisco: +351 915542311</p>
+                <h2>O Dia</h2>
+                <p>Missa | 15h30</p>
+                <p>Igreja do <a href="https://mosteirodelandim.com/" target="_blank">Mosteiro de Santa Maria de Landim</a></p>
+                <p>Seguido de cocktail e jantar no Mosteiro</p>
+                <p>Alameda do Mosteiro, 4770-328 Vila Nova de Famalicão, Portugal.</p>
+                <a class="btn" href="https://www.google.com/maps/place/Mosteiro+de+Santa+Maria+de+Landim/@41.3795737,-8.4649919,267m/data=!3m1!1e3!4m6!3m5!1s0xd24f61285cbd035:0xf11ff2ba637bd6f1!8m2!3d41.3792134!4d-8.4636841!16s%2Fg%2F12156rt3?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Como chegar</a>
             </div>
-            <img src="images/Setembro 2024 8.jpg" alt="">
+            <img src="images/mosteiro.jpg" alt="">
+        </div>
+    </div>
+    <div class="wrapper" id="luamel">
+        <div class="container container-flex">
+            <div class="sub-container-asym sub-container-left">
+                <img src="images/itinerario.png" alt="">
+                <img src="images/japao2.jpg" alt="">
+            </div>
+            <div class="sub-container-asym">
+                <div>
+                    <h2>A nossa viagem de sonho!</h2>
+                    <p>O melhor presente é poder contar com a vossa presença neste dia tão especial, que marca o início de uma nova etapa na nossa vida conjunta.</p>
+                    <p>Entre a nossa viagem de sonho ao Japão e a mudança num futuro próximo de Bruxelas para Madrid, qualquer contribuição já será uma ajuda fantástica nesta fase da nossa vida.</p>
+                    <p>IBAN: XXX</p>
+                </div>
+                <img src="images/viagem.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="wrapper" id="informacao">
+        <div class="container container-flex container-sym">
+            <div class="sub-container">
+                <h2>Informações Importantes</h2>
+                <p>Queremos contar com todas e quaisquer intolerâncias e preferências alimentares! Por favor enviem-nos uma mensagem diretamente para os nossos contactos (abaixo) com essa informação.</p>
+            </div>
+            <img src="images/mosteiro_inside.jpg" alt="">
+        </div>
+    </div>
+    <footer id="contactos">
+        <div class="container">
+            <h2>Contactos</h2>
+            <p>isabel.francisco.aug.2025@gmail.com</p>
+            <p>Isabel: +351 913026850</p>
+            <p>Francisco: +351 915542311</p>
         </div>
     </footer>
 </body>
