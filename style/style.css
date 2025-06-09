@@ -112,3 +112,58 @@ footer {
     text-align: center;
     padding: 50px 0;
 } 
+
+@media (max-width: 1200px) {
+    #titulo {
+        height: 450px;
+    }
+
+    .container {
+        max-width: 350px;
+    }
+
+    .container-flex {
+        flex-direction: column;
+    }
+
+    .container-sym img {
+        max-width: 100%;
+    }
+
+    .navbar {
+        flex-direction: row;
+        padding: 14px 0;
+    }
+
+    .navbar img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .horizontal-list {
+        margin: 0;
+        align-self: center;
+    }
+
+    .horizontal-list li {
+        padding-left: 8px;
+        font-size: 12px;
+    }
+
+    .sub-container {
+        width: 100%;
+    }
+
+    .sub-container-left {
+        width: 100%;
+        order: 2;
+    }
+
+    .sub-container-right {
+        order: 1;
+    }
+
+    .btn {
+        margin: 30px 30px 0 30px;
+    }
+}
