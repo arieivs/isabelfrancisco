@@ -92,6 +92,11 @@ img {
     max-height: 500px;
 }
 
+.sub-container-right img {
+    max-height: 425px;
+    object-fit: cover;
+}
+
 .btn {
     align-self: center;
     text-align: center;
@@ -116,6 +121,10 @@ footer {
 @media (max-width: 1200px) {
     #titulo {
         height: 450px;
+    }
+
+    .wrapper {
+        padding: 40px 0;
     }
 
     .container {
