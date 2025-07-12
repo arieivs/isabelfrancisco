@@ -48,6 +48,11 @@ img {
     object-fit: contain;
 }
 
+.mini-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
 .navbar {
     justify-content: space-between;
     padding: 20px 0;
@@ -93,7 +98,7 @@ img {
 }
 
 .sub-container-right img {
-    max-height: 450px;
+    max-height: 380px;
     object-fit: cover;
 }
 
